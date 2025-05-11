@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suryaprabha PJ - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+  <center>
+    <header>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </header>
+  </center>
+
+  <!-- Home Section -->
+  <section id="home" class="home-container">
+    <div class="home-right">
+      <div class="profile-img-wrapper">
+        <img src="Profile.jpg" alt="Profile Image" />
+      </div>
+    </div>
+    <div class="home-left">
+      <h1>Hi I'm Suryaprabha</h1>
+      <h2><span class="highlight">Aspiring Data Scientist</span></h2>
+      <p> B.E. in Computer Science at Ramco Institute of Technology with a CGPA of 8.11. 
+          I am passionate about Data Science and AI-driven solutions. 
+          I have hands-on experience in developing intelligent, user-centric systems. 
+          I actively participate in hackathons, love transforming ideas into impactful applications, and thrive on continuous learning.      
+      </p>
+
+      <a href="Suryaprabha Resume.pdf" class="btn-download" download>Download CV</a>
+
+      <div class="social-icons">
+        <a href="https://github.com/suryaprabha19" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/suryaprabhapj/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:suryaprabhapj1965@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <!-- First 4 Projects -->
+      <div class="project">
+        <img src="Project1.png" alt="Gaze-Controlled Assistive Technology">
+        <h3>Gaze-Controlled Assistive Technology</h3>
+        <p>Eye-tracking system to aid mobility-impaired individuals in digital interaction.</p>
+        <p>OpenCV | cvzone | MediaPipe | pynput | NumPy</p>
+        <a href="https://github.com/Suryaprabha19/Gaze-Controlled-Assistive-Technology" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+
+      <div class="project">
+        <img src="Project2.png" alt="Virtual Keyboard">
+        <h3>Virtual Keyboard Using Hand Tracking</h3>
+        <p>Touchless typing using real-time hand tracking and gesture control.</p>
+        <p>OpenCV | cvzone | MediaPipe | pynput | NumPy</p>
+        <a href="https://github.com/Suryaprabha19/VirtualKeyboard-using-Hand-Tracking" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+
+      <div class="project">
+        <img src="Project3.jpg" alt="Chatbot">
+        <h3>Data Retrieval through Chatbot</h3>
+        <p>A Chat interface to interact with databases for data retrieval processes.</p>
+        <p class="tech-stack">Flask | API | SQLite | HTML | CSS | JavaScript</p>
+        <a href="https://github.com/yourusername/chatbot-db-retrieval" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+
+      <div class="project">
+        <img src="Project4.png" alt="Phishing Detection">
+        <h3>Phishing Detection</h3>
+        <p>ML-powered phishing classifier using NLP to secure digital platforms.</p>
+        <p class="tech-stack">Flask | HTML | CSS | JavaScript</p>
+        <a href="https://github.com/Suryaprabha19/Phishing-Detection" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+
+      <!-- Hidden Projects INSIDE the grid -->
+      <div class="more-projects" style="display: none;">
+        <div class="project">
+          <img src="excel1.jpg" alt="Road Accident Dashboard">
+          <h3>Road Accident Dashboard</h3>
+          <p> A data visualization dashboard to analyze road accident trends</p>
+          <p class="tech-stack">Excel</p>
+          <a href="https://github.com/Suryaprabha19/Road-Safety-Analysis-Dashboard" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+
+        <div class="project">
+          <img src="excel4.jpg" alt="Business Analytics Dashboard">
+          <h3>Business Analytics Dashboard</h3>
+          <p>Business Analytics Dashboard </p>
+          <pclass="tech-stack">Excel</p>
+          <a href="https://github.com/Suryaprabha19/Business-Analytics-Dashboard" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <center>
+        <!-- See More Button -->
+        <button onclick="toggleProjects()" class="see-more-btn">See More</button>
+      </center>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <p>Here are the technologies I’ve worked with across various domains.</p>
+  
+    <div class="skills-container">
+      <div class="skills-box">
+        <h3>Languages</h3>
+        <div class="skills-list">
+          <div class="skill">Python</div>
+          <div class="skill">R</div>
+          <div class="skill">C</div>
+          <div class="skill">Java</div>
+          <div class="skill">JavaScript</div>
+        </div>
+      </div>
+  
+      <div class="skills-box">
+        <h3>Libraries</h3>
+        <div class="skills-list">
+          <div class="skill">NumPy</div>
+          <div class="skill">Pandas</div>
+          <div class="skill">Matplotlib</div>
+          <div class="skill">Seaborn</div>
+          <div class="skill">Scikit-learn</div>
+          <div class="skill">TensorFlow</div>
+          <div class="skill">OpenCV</div>
+          <div class="skill">Keras</div>
+        </div>
+      </div>
+  
+      <div class="skills-box">
+        <h3>Frameworks & Tools</h3>
+        <div class="skills-list">
+          <div class="skill">Excel</div>
+          <div class="skill">Power BI</div>
+          <div class="skill">Google Colab</div>
+          <div class="skill">Jupyter Notebook</div>
+          <div class="skill">Flask</div>
+          <div class="skill">Streamlit</div>
+          <div class="skill">Plotly</div>
+        </div>
+      </div>
+  
+      <div class="skills-box">
+        <h3>Web Development</h3>
+        <div class="skills-list">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">Node.js</div>
+          <div class="skill">Express.js</div>
+          <div class="skill">React.js</div>
+        </div>
+      </div>
+  
+      <div class="skills-box">
+        <h3>Databases</h3>
+        <div class="skills-list">
+          <div class="skill">MySQL</div>
+          <div class="skill">MongoDB</div>
+        </div>
+      </div>
+  
+      <div class="skills-box">
+        <h3>Others</h3>
+        <div class="skills-list">
+          <div class="skill">Git</div>
+          <div class="skill">GitHub</div>
+          <div class="skill">VS Code</div>
+          <div class="skill">IntelliJ IDEA</div>
+          <div class="skill">Arduino</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements" class="section-container">
+    <h2 class="section-title">Achievements</h2>
+    <div class="achievements-grid">
+      <div class="achievement-card">
+        <h3>Codher'24 Hackathon</h3>
+        <img src="Certificate.png" alt="Best First Year Team" width="300px">
+        <p>Won Best First Year Team Award conducted by ACM-CEG, solved real-time problem statements with a team of 3.</p>
+      </div>
+      <div class="achievement-card">
+        <h3>Woodpecker's Hackathon</h3>
+        <img src="Suryaprabha.jpg" alt="Finalist of Woodpecker's Hackathon" width="300px">
+        <p>Made to the finals of the Woodpecker's Hackathon, showcasing my problem-solving skills and creativity in developing an innovative project.</p>
+      </div>
+    
+    </div>
+  </section>
+
+  <section id="contact" class="section-container">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="text" placeholder="Subject" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script>
+    function toggleProjects() {
+      const more = document.getElementById("more-projects");
+      const btn = document.querySelector(".see-more-btn");
+
+      if (more.style.display === "none") {
+        more.style.display = "block";
+        btn.textContent = "See Less";
+      } else {
+        more.style.display = "none";
+        btn.textContent = "See More";
+      }
+    }
+  </script>  
+
+  </body>
+</html>
